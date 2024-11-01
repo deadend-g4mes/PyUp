@@ -1,9 +1,10 @@
 from pyup import PyUp
 import os
 
-host = os.environ.get('host')
-port = os.environ.get('port')
+host = '192.168.86.64'
+port = "13276"
 
-lifeUp = PyUp(host=host,port=port)
+lifeUp = PyUp.PyUp(host,port)
+
 
 lifeUp.toast("they're great!")

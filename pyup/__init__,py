@@ -1,0 +1,10 @@
+"""
+PyUp
+=====
+
+an easy to use python library for integrating LifeUp into your projects.
+"""
+from pyup.PyUp import PyUp, Task
+
+__all__ = ["Task", "PyUp"]
+__version__ = "0.0.1"
