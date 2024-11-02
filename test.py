@@ -1,10 +1,11 @@
-from pyup import PyUp
-import os
+from pyup import pyup, general, task, shop
+
 
 host = '192.168.86.64'
 port = "13276"
 
-lifeUp = PyUp.PyUp(host,port)
+base = pyup.PyUp(host,port)
 
+general.self = base
 
-lifeUp.toast("they're great!")
+general.toast('test')
