@@ -1,2 +1,3 @@
-# PyUp-LifeUp-Python-API_Lib
+# PyUp
+a Python Library for easy usage of the LifeUp API.
  
