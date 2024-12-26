@@ -157,7 +157,7 @@ up_task = Task(pyup)
 ### description
 returns request.Response
 ### ---code example---
-```
+```python
 from pyup import PyUp, Task
 
 pyup = PyUp('host_ip', 'port')
@@ -171,7 +171,7 @@ up_task.add_task()
 ### description
 returns request.Response
 ### ---code example---
-```
+```python
 from pyup import PyUp, Task
 
 pyup = PyUp('host_ip', 'port')
@@ -185,7 +185,13 @@ up_task.complete_task()
 ### description
 returns request.Response
 ### ---code example---
-```
+```python
+from pyup import PyUp, Task
+
+pyup = PyUp('host_ip', 'port')
+up_task = Task(pyup)
+
+up_task.give_up_task()
 ```
 ### ---parameters--
 
@@ -193,7 +199,7 @@ returns request.Response
 ### description
 returns request.Response
 ### ---code example---
-```
+```python
 from pyup import PyUp, Task
 
 pyup = PyUp('host_ip', 'port')
@@ -207,7 +213,7 @@ up_task.freeze_task()
 ### description
 returns request.Response
 ### ---code example---
-```
+```python
 from pyup import PyUp, Task
 
 pyup = PyUp('host_ip', 'port')
@@ -221,7 +227,7 @@ up_task.unfreeze_task()
 ### description
 returns request.Response
 ### ---code example---
-```
+```python
 from pyup import PyUp, Task
 
 pyup = PyUp('host_ip', 'port')
@@ -233,7 +239,7 @@ up_task.delete_task()
 
 # Shop Class
 The Shop class is a class of the pyup library that focuses on shop related API calls for the LifeUp API.
-```
+```python
 from pyup import PyUp, Shop
 
 pyup = PyUp('host_ip', 'port')
@@ -244,7 +250,7 @@ up_shop = Shop(pyup)
 ### description
 returns request.Response
 ### ---code example---
-```
+```python
 from pyup import PyUp, Shop
 
 pyup = PyUp('host_ip', 'port')
@@ -258,7 +264,7 @@ up_shop.add_item()
 ### description
 returns request.Response
 ### ---code example---
-```
+```python
 from pyup import PyUp, Shop
 
 pyup = PyUp('host_ip', 'port')
@@ -272,7 +278,7 @@ up_shop.edit_item()
 ### description
 returns request.Response
 ### ---code example---
-```
+```python
 from pyup import PyUp, Shop
 
 pyup = PyUp('host_ip', 'port')
@@ -286,7 +292,7 @@ up_shop.use_item()
 ### description
 returns request.Response
 ### ---code example---
-```
+```python
 from pyup import PyUp, Shop
 
 pyup = PyUp('host_ip', 'port')
@@ -298,7 +304,7 @@ up_shop.edit_loot_box()
 
 #  ATM Class
 The ATM class is a class of the pyup library that focuses on ATM related API calls for the LifeUp API.
-```
+```python
 from pyup import PyUp, ATM
 
 pyup = PyUp('host_ip', 'port')
@@ -309,7 +315,7 @@ up_atm = ATM(pyup)
 ### description
 returns request.Response
 ### ---code example---
-```
+```python
 from pyup import PyUp, ATM
 
 pyup = PyUp('host_ip', 'port')
@@ -323,7 +329,7 @@ up_atm.deposit()
 ### description
 returns request.Response
 ### ---code example---
-```
+```python
 from pyup import PyUp, ATM
 
 pyup = PyUp('host_ip', 'port')
@@ -336,7 +342,7 @@ up_atm.withdraw()
 
 #  Pomodoro Class
 The Pomodoro class is a class of the pyup library that focuses on Pomodoro related API calls for the LifeUp API.
-```
+```python
 from pyup import PyUp, Pomodoro
 
 pyup = PyUp('host_ip', 'port')
@@ -347,7 +353,7 @@ up_pomo = Pomodoro(pyup)
 ### description
 returns request.Response
 ### ---code example---
-```
+```python
 from pyup import PyUp, Pomodoro
 
 pyup = PyUp('host_ip', 'port')
@@ -361,7 +367,7 @@ up_pomo.add_record()
 ### description
 returns request.Response
 ### ---code example---
-```
+```python
 from pyup import PyUp, Pomodoro
 
 pyup = PyUp('host_ip', 'port')
