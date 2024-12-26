@@ -41,6 +41,8 @@ Once pip finishes installing the PyUp Library, initialize the PyUp API like so
 The `PyUp` class will be used as the basis for all API interactions. 
 You can add the other modules by adding `, module-name` after `from pyup import PyUp`.
 
+for a more in-depth understand of the API, check it the [official LifeUp API documentation](https://docs.lifeupapp.fun/en/#/guide/api?id=popup-message).
+
 # General Class
 The General class is a class of the pyup library that focuses on the most basic LifeUp API interactions.
 ```python
